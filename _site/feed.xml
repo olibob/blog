@@ -34,5 +34,14 @@
         <guid isPermaLink="true">http://olibob.com/2014/05/18/welcome-to-my-digital-man-cave/</guid>
       </item>
     
+      <item>
+        <title>test</title>
+        <description>&lt;p&gt;Hoy test&lt;/p&gt;
+</description>
+        <pubDate>Sun, 18 May 2014 00:00:00 +0200</pubDate>
+        <link>http://olibob.com/2014/05/18/test/</link>
+        <guid isPermaLink="true">http://olibob.com/2014/05/18/test/</guid>
+      </item>
+    
   </channel>
 </rss>
