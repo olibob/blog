@@ -35,14 +35,24 @@
       </item>
     
       <item>
-        <title>test</title>
-        <description>&lt;p&gt;Hoy test
-And test webhook
-private thing test&lt;/p&gt;
+        <title>Git webhook made easy</title>
+        <description>&lt;p&gt;The question: How could I only push my website to github and have it automatically updated on my web server? The answer: &lt;a href=&quot;https://github.com/Perennials/apache-git-sync-tool&quot;&gt;apache-git-sync-tool&lt;/a&gt;. Its great!&lt;/p&gt;
+
+&lt;p&gt;I think I googled around for about 3 hours, trying different things on a vagrant box, but to no avail. Frustration is growing rapidely. And … humm … this could be something. And boom! It is.&lt;/p&gt;
+
+&lt;p&gt;There is not much else to say than: &lt;strong&gt;“Follow the readme”&lt;/strong&gt;. You can’t go wrong if you stick to it.&lt;/p&gt;
+
+&lt;p&gt;Krum Stoilov and Borislav Peev have done a fantastic job to make a complicated endeavour … quite easy.&lt;/p&gt;
+
+&lt;p&gt;My server is running Fedora (yeah, I like it risky), so don’t be alarmed by the error when you create the ssh keys. Go to &lt;em&gt;/usr/share/httpd/&lt;/em&gt; and create a &lt;em&gt;.ssh&lt;/em&gt; directory and &lt;code&gt;chmod 600 .ssh&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once your done, a simple git push from your workstation is going to update your website on your server. Isn’t it great to be lazy?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tip&lt;/strong&gt;: Run the webhook url (http://yoursite.com/sync.php?project=happyworld&amp;amp;branch=peace) yourself in your browser to get feedback from the sync.php script. It’ll be helpfull to debug any little error that you slipped in.&lt;/p&gt;
 </description>
         <pubDate>Sun, 18 May 2014 00:00:00 +0200</pubDate>
-        <link>http://olibob.com/2014/05/18/test/</link>
-        <guid isPermaLink="true">http://olibob.com/2014/05/18/test/</guid>
+        <link>http://olibob.com/git/apache/2014/05/18/git-webhooks-made-easy/</link>
+        <guid isPermaLink="true">http://olibob.com/git/apache/2014/05/18/git-webhooks-made-easy/</guid>
       </item>
     
   </channel>

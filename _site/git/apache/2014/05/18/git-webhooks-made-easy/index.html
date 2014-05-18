@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>test</title>
+    <title>Git webhook made easy</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="The place where, surrounded with cool toys, you play with the shell and a text editor to build stuff">
-    <link rel="canonical" href="http://olibob.com/2014/05/18/test/">
+    <link rel="canonical" href="http://olibob.com/git/apache/2014/05/18/git-webhooks-made-easy/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -56,14 +56,24 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>test</h1>
+    <h1>Git webhook made easy</h1>
     <p class="meta">May 18, 2014</p>
   </header>
 
   <article class="post-content">
-  <p>Hoy test
-And test webhook
-private thing test</p>
+  <p>The question: How could I only push my website to github and have it automatically updated on my web server? The answer: <a href="https://github.com/Perennials/apache-git-sync-tool">apache-git-sync-tool</a>. Its great!</p>
+
+<p>I think I googled around for about 3 hours, trying different things on a vagrant box, but to no avail. Frustration is growing rapidely. And … humm … this could be something. And boom! It is.</p>
+
+<p>There is not much else to say than: <strong>“Follow the readme”</strong>. You can’t go wrong if you stick to it.</p>
+
+<p>Krum Stoilov and Borislav Peev have done a fantastic job to make a complicated endeavour … quite easy.</p>
+
+<p>My server is running Fedora (yeah, I like it risky), so don’t be alarmed by the error when you create the ssh keys. Go to <em>/usr/share/httpd/</em> and create a <em>.ssh</em> directory and <code>chmod 600 .ssh</code>.</p>
+
+<p>Once your done, a simple git push from your workstation is going to update your website on your server. Isn’t it great to be lazy?</p>
+
+<p><strong>Tip</strong>: Run the webhook url (http://yoursite.com/sync.php?project=happyworld&amp;branch=peace) yourself in your browser to get feedback from the sync.php script. It’ll be helpfull to debug any little error that you slipped in.</p>
 
   </article>
 
