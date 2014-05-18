@@ -69,7 +69,7 @@
 
 <p>Krum Stoilov and Borislav Peev have done a fantastic job to make a complicated endeavour … quite easy.</p>
 
-<p>My server is running Fedora (yeah, I like it risky), so don’t be alarmed by the error when you create the ssh keys. Go to <em>/usr/share/httpd/</em> and create a <em>.ssh</em> directory and <code>chmod 600 .ssh</code>.</p>
+<p>My server is running Fedora (yeah, I like it risky), so don’t be alarmed by the error when you create the ssh keys. Go to <em>/usr/share/httpd/</em> and create a <em>.ssh</em> directory and <code>chown -R apache:apache .ssh &amp;&amp; chmod 600 .ssh</code>.</p>
 
 <p>Once your done, a simple git push from your workstation is going to update your website on your server. Isn’t it great to be lazy?</p>
 
