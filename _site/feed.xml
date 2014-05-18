@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bob&#39;s Digital Man Cave</title>
+    <description>The place where, surrounded with cool toys, you play with the shell and a text editor to build stuff</description>
+    <link>http://olibob.com/</link>
+    <atom:link href="http://olibob.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Welcome to my digital man cave!</title>
+        <description>&lt;p&gt;I needed a way to save the little things I try out. Tada! My &lt;strong&gt;digital man cave&lt;/strong&gt; is born.&lt;/p&gt;
+
+&lt;p&gt;There is no specific theme to this blog other than record what interests me, what I test, like and use. There will definitely be some ruby, because I love it and whatever else I end up using. It’ll be Mac OS X and Linux centric. There will be shell, code, software … the usual geek stuff really.&lt;/p&gt;
+
+&lt;p&gt;BTW, I liked the &lt;a href=&quot;http://brettterpstra.com/2014/05/10/bash-and-dash/&quot;&gt;Bash and Dash&lt;/a&gt; article from Brett Terpstra (&lt;a href=&quot;https://twitter.com/ttscoff&quot;&gt;@ttscoff&lt;/a&gt;) because it was so simple and straightforward. While reading it, it automatically triggered a “Could I do this in ruby?” question. And it turns out, I can and it’s, as well, dead simple. Here’s my &lt;code&gt;rdash&lt;/code&gt; ruby script that I copied to &lt;em&gt;/usr/local/bin&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/env ruby&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;erb&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ERB&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Util&lt;/span&gt;
+
+&lt;span class=&quot;sx&quot;&gt;%x[open dash://&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ARGV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39; &amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, when I’m in the terminal, I can just do &lt;code&gt;rdash ruby:FileUtils mv&lt;/code&gt; to look up the documentation in &lt;a href=&quot;https://itunes.apple.com/fr/app/dash-docs-snippets/id458034879?l=en&amp;amp;mt=12&quot;&gt;Dash&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;OK, granted, I usually don’t do this, and I didn’t feel a need to do it because Dash is a Ctrl-SPACE away with the global search shortcut I chose. I sometimes use the &lt;a href=&quot;http://www.alfredapp.com/&quot;&gt;Alfred&lt;/a&gt; workflow that comes with Dash (in the lastest versions). I often use Ctrl-h in &lt;a href=&quot;https://github.com/farcaller/DashDoc&quot;&gt;Sublime Text&lt;/a&gt; or &lt;a href=&quot;https://github.com/blakeembrey/atom-dash&quot;&gt;Atom&lt;/a&gt;. This being said, the “Bash and Dash” article led me to try something new and I have one more way to interact with a tool I use almost every day.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I digress. One idea leads to the next, one link leads to the rabbit hole and hours fly.&lt;/p&gt;
+
+&lt;p&gt;Welcome :)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 18 May 2014 00:00:00 +0200</pubDate>
+        <link>http://olibob.com/2014/05/18/welcome-to-my-digital-man-cave/</link>
+        <guid isPermaLink="true">http://olibob.com/2014/05/18/welcome-to-my-digital-man-cave/</guid>
+      </item>
+    
+  </channel>
+</rss>

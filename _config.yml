@@ -1,0 +1,20 @@
+# Site settings
+title: Bob's Digital Man Cave
+username: olibob
+email: bob-dmc@gmail.com
+description: "The place where, surrounded with cool toys, you play with the shell and a text editor to build stuff"
+baseurl: ""
+url: "http://olibob.com"
+timezone: Europe/Paris
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      twitterbob: "XwaldRob"
