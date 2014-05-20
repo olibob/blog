@@ -46,7 +46,7 @@
 
 &lt;p&gt;My server is running Fedora (yeah, I like it risky), so don’t be alarmed by the error when you create the ssh keys. Go to &lt;em&gt;/usr/share/httpd/&lt;/em&gt; and create a &lt;em&gt;.ssh&lt;/em&gt; directory and &lt;code&gt;chown -R apache:apache .ssh &amp;amp;&amp;amp; chmod 600 .ssh&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Once your done, a simple git push from your workstation is going to update your website on your server. Isn’t it great to be lazy?&lt;/p&gt;
+&lt;p&gt;Once you are done, a simple git push from your workstation is going to update your website on your server. Isn’t it great to be lazy?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Tip&lt;/strong&gt;: Run the webhook url (http://yoursite.com/sync.php?project=happyworld&amp;amp;branch=peace) yourself in your browser to get feedback from the sync.php script. It’ll be helpfull to debug any little error that you slipped in.&lt;/p&gt;
 </description>

@@ -17,6 +17,6 @@ Krum Stoilov and Borislav Peev have done a fantastic job to make a complicated e
 
 My server is running Fedora (yeah, I like it risky), so don't be alarmed by the error when you create the ssh keys. Go to */usr/share/httpd/* and create a *.ssh* directory and `chown -R apache:apache .ssh && chmod 600 .ssh`.
 
-Once your done, a simple git push from your workstation is going to update your website on your server. Isn't it great to be lazy?
+Once you are done, a simple git push from your workstation is going to update your website on your server. Isn't it great to be lazy?
 
 **Tip**: Run the webhook url (http://yoursite.com/sync.php?project=happyworld&branch=peace) yourself in your browser to get feedback from the sync.php script. It'll be helpfull to debug any little error that you slipped in.
